@@ -7,3 +7,4 @@ for file in fileList:
         if str(year) in file:
             renamedFile=str(year)+') '+ file
             os.rename(os.path.join(path,file),os.path.join(path,renamedFile))
+# prova
